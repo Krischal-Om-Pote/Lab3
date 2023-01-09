@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dotnet\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj": {}
+    "D:\\Dotnet\\Lab3\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj": {}
   },
   "projects": {
-    "D:\\Dotnet\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj": {
+    "D:\\Dotnet\\Lab3\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dotnet\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj",
+        "projectUniqueName": "D:\\Dotnet\\Lab3\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj",
         "projectName": "ApexRestaurant.Repository",
-        "projectPath": "D:\\Dotnet\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj",
+        "projectPath": "D:\\Dotnet\\Lab3\\ApexRestaurant.Repository\\ApexRestaurant.Repository.csproj",
         "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "D:\\Dotnet\\ApexRestaurant.Repository\\obj\\",
+        "outputPath": "D:\\Dotnet\\Lab3\\ApexRestaurant.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,20 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
