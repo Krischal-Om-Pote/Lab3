@@ -1,9 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
+  <ItemGroup>
+    <ProjectReference Include="..\ApexRestaurant.Repository\ApexRestaurant.Repository.csproj" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    
   </PropertyGroup>
 
 </Project>
