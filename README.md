@@ -12,3 +12,6 @@ GET WITH ID REQUEST:
 
 DELETE REQUEST:
 <img src="/Outputs/delete.png"/>
+
+SWAGGER :
+<img src="/Outputs/swagger.png"/>
