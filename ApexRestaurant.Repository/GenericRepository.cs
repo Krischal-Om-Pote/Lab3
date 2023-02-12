@@ -2,32 +2,47 @@ using System.Linq;
 using Microsoft.EntityFrameworkCore;
 namespace ApexRestaurant.Repository
 {
-    public abstract class GenericRepository<T> : IGenericRepository<T>
-    where T : class, new()
+    public abstract class GenericRepository<T> : IGenericRepository<T> where T : class
     {
+
         protected RestaurantContext DbContext { get; set; }
-        public T Get(int id)
+
+        protected GenericRepository(RestaurantContext dbContext)
         {
-            return DbContext.Find<T>(id);
+            DbContext = dbContext;
         }
+
+        public async Task<IEnumerable<T>> GetAll()
+        {
+            return await DbContext.Set<T>().ToListAsync();
+        }
+
+        public async Task<T?> GetById(int id)
+        {
+            return await DbContext.FindAsync<T>(id);
+        }
+
         public IQueryable<T> Query()
         {
             return DbContext.Set<T>().AsQueryable();
         }
-        public void Insert(T entity)
+
+        public async Task Insert(T entity)
         {
             DbContext.Set<T>().Add(entity);
-            DbContext.SaveChanges();
+            await DbContext.SaveChangesAsync();
         }
-        public void Update(T entity)
+
+        public async Task Update(T entity)
         {
             DbContext.Entry(entity).State = EntityState.Modified;
-            DbContext.SaveChanges();
+            await DbContext.SaveChangesAsync();
         }
-        public void Delete(T entity)
+
+        public async Task Delete(T entity)
         {
             DbContext.Set<T>().Remove(entity);
-            DbContext.SaveChanges();
+            await DbContext.SaveChangesAsync();
         }
     }
 }

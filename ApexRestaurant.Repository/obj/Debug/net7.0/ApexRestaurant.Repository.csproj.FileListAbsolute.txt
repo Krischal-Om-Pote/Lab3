@@ -1,4 +1,19 @@
+C:\Users\dell\Downloads\test\apexrestaurant-main\ApexRestaurant.Repository\bin\Debug\net7.0\ApexRestaurant.Repository.deps.json
+C:\Users\dell\Downloads\test\apexrestaurant-main\ApexRestaurant.Repository\bin\Debug\net7.0\ApexRestaurant.Repository.runtimeconfig.json
+C:\Users\dell\Downloads\test\apexrestaurant-main\ApexRestaurant.Repository\bin\Debug\net7.0\ApexRestaurant.Repository.dll
+C:\Users\dell\Downloads\test\apexrestaurant-main\ApexRestaurant.Repository\bin\Debug\net7.0\ApexRestaurant.Repository.pdb
+C:\Users\dell\Downloads\test\apexrestaurant-main\ApexRestaurant.Repository\obj\Debug\net7.0\ApexRestaurant.Repository.csproj.AssemblyReference.cache
+C:\Users\dell\Downloads\test\apexrestaurant-main\ApexRestaurant.Repository\obj\Debug\net7.0\ApexRestaurant.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dell\Downloads\test\apexrestaurant-main\ApexRestaurant.Repository\obj\Debug\net7.0\ApexRestaurant.Repository.AssemblyInfoInputs.cache
+C:\Users\dell\Downloads\test\apexrestaurant-main\ApexRestaurant.Repository\obj\Debug\net7.0\ApexRestaurant.Repository.AssemblyInfo.cs
+C:\Users\dell\Downloads\test\apexrestaurant-main\ApexRestaurant.Repository\obj\Debug\net7.0\ApexRestaurant.Repository.csproj.CoreCompileInputs.cache
+C:\Users\dell\Downloads\test\apexrestaurant-main\ApexRestaurant.Repository\obj\Debug\net7.0\ApexRestaurant.Repository.dll
+C:\Users\dell\Downloads\test\apexrestaurant-main\ApexRestaurant.Repository\obj\Debug\net7.0\refint\ApexRestaurant.Repository.dll
+C:\Users\dell\Downloads\test\apexrestaurant-main\ApexRestaurant.Repository\obj\Debug\net7.0\ApexRestaurant.Repository.pdb
+C:\Users\dell\Downloads\test\apexrestaurant-main\ApexRestaurant.Repository\obj\Debug\net7.0\ApexRestaurant.Repository.genruntimeconfig.cache
+C:\Users\dell\Downloads\test\apexrestaurant-main\ApexRestaurant.Repository\obj\Debug\net7.0\ref\ApexRestaurant.Repository.dll
 D:\Dotnet\Lab3\ApexRestaurant.Repository\bin\Debug\net7.0\ApexRestaurant.Repository.deps.json
+D:\Dotnet\Lab3\ApexRestaurant.Repository\bin\Debug\net7.0\ApexRestaurant.Repository.runtimeconfig.json
 D:\Dotnet\Lab3\ApexRestaurant.Repository\bin\Debug\net7.0\ApexRestaurant.Repository.dll
 D:\Dotnet\Lab3\ApexRestaurant.Repository\bin\Debug\net7.0\ApexRestaurant.Repository.pdb
 D:\Dotnet\Lab3\ApexRestaurant.Repository\obj\Debug\net7.0\ApexRestaurant.Repository.csproj.AssemblyReference.cache
@@ -9,4 +24,5 @@ D:\Dotnet\Lab3\ApexRestaurant.Repository\obj\Debug\net7.0\ApexRestaurant.Reposit
 D:\Dotnet\Lab3\ApexRestaurant.Repository\obj\Debug\net7.0\ApexRestaurant.Repository.dll
 D:\Dotnet\Lab3\ApexRestaurant.Repository\obj\Debug\net7.0\refint\ApexRestaurant.Repository.dll
 D:\Dotnet\Lab3\ApexRestaurant.Repository\obj\Debug\net7.0\ApexRestaurant.Repository.pdb
+D:\Dotnet\Lab3\ApexRestaurant.Repository\obj\Debug\net7.0\ApexRestaurant.Repository.genruntimeconfig.cache
 D:\Dotnet\Lab3\ApexRestaurant.Repository\obj\Debug\net7.0\ref\ApexRestaurant.Repository.dll

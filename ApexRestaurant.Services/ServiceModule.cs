@@ -2,7 +2,7 @@ using Microsoft.Extensions.DependencyInjection;
 using ApexRestaurant.Services.SCustomer;
 namespace ApexRestaurant.Services
 {
-    public static class ServicesModule
+    public static class ServiceModule
     {
         public static void Register(IServiceCollection services)
         {

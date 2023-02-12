@@ -1,11 +1,11 @@
 using ApexRestaurant.Repository.Domain;
+
 namespace ApexRestaurant.Repository.RCustomer
 {
     public class CustomerRepository : GenericRepository<Customer>, ICustomerRepository
     {
-        public CustomerRepository(RestaurantContext dbContext)
+        public CustomerRepository(RestaurantContext dbContext) : base(dbContext)
         {
-            DbContext = dbContext;
         }
     }
 }
