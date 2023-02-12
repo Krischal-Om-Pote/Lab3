@@ -28,7 +28,7 @@ namespace ApexRestaurant.Api
         {
             services.AddMvc(options => options.EnableEndpointRouting = false);//method 1(disable addmvc completely) --- for "Endpoint Routing does not support 'IApplicationBuilder.UseMvc(...)'". error 
                                                                               //method 1(disable addmvc completely) --- for "Endpoint Routing does not support 'IApplicationBuilder.UseMvc(...)'". error 
-            RepositoryModule.Register(services, "server=127.0.0.1;database=ApexRestaurantDB;uid=root;password=", GetType().Assembly.FullName);
+            RepositoryModule.Register(services, "server=127.0.0.1;database=apex;uid=root;password=", GetType().Assembly.FullName);
             // ServiceModule.Register(services);
             ServicesModule.Register(services);
             services.AddMvc();
